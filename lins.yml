@@ -1,0 +1,8 @@
+---
+- hosts: localhost
+  tasks:
+  
+    - name: grabs an env variable, use as value
+	  debug:
+	    msg: "{{ lookup( énv') , 'MY_PASSWORD') }'}}"
+	  no_log: true	
